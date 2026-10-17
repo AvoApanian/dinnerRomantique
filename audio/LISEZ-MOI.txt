@@ -1,0 +1,7 @@
+Dossier optionnel pour ta propre musique.
+
+1. Copie ici un fichier (par exemple musique.mp3) dont tu as les droits d'utilisation.
+2. Dans src/config.ts, renseigne :  audio: { musicSrc: '/audio/musique.mp3', ... }
+
+Sans fichier, le site génère une ambiance douce en direct (aucun fichier requis).
+Le son ne démarre jamais automatiquement : seulement après un appui sur « Musique ».
